@@ -1,0 +1,502 @@
+body {
+    margin:0.25vw;
+    background-color: #FAFFE9;
+    font-family: sans-serif;
+    font-size; 1vh;
+}
+
+.title_text {
+    font-size: 2.5em;
+}
+.menu {
+    font-size: 1em;
+    background-color: #00C4FF;
+    text-align: center;
+    cursor: pointer;
+}
+
+.text_block {
+    background-color: #00C4FF;
+}
+
+#tagline {
+    text-align: center;
+}
+
+#company_link {
+    position:absolute;
+    top: 1vh;
+    right: 2vw;
+    font-size: 1em;
+    text-align: center;
+    background-color: #00C4FF;  
+    cursor: pointer;
+}
+
+
+/** Infographic stuff **/
+.qblock {
+    width: 65vw;
+    height: auto;
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 0.25vw;
+    border-color: #00C4FF;
+    position:fixed;
+    top: 50vh;
+    left: 20vw;
+    text-align:center;
+    -webkit-transition: left 2s; /* Safari */
+    -webkit-transition-delay: 1s; /* Safari */
+    transition: left 2s;
+    transition-delay: 1s;
+}
+
+
+.acircle {
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    line-height: 8vh;
+    background-color: #00C4FF;
+    border-width: 1vh;
+    border-style: solid;
+    border-color: rgba(108,232,146,0);
+    text-align: center;
+    display:inline-block;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:450px) {
+    .q_title {
+        font-size: 1em;
+        width:63vw;
+    }
+    .acircle {
+        font-size: 0.75em;
+    }
+}
+
+@media only screen and (min-width:450px) {
+    .q_title {
+        font-size: 1.5em;
+        width:63vw;
+    }
+ 
+    .acircle {
+        width: 15vw;
+        height: 15vw;
+        border-width: 1vw;
+        line-height: 13vw;
+        font-size: 1em;
+    }
+}
+
+#appversion {
+    width:63vw;
+    text-align: center;
+}
+
+#rentwatch {
+    visibility: hidden;
+    width:63vw;
+}
+
+#learnmore {
+    background-color: #00C4FF;
+    cursor: pointer;
+}
+
+#question_1 {
+    left: 125vw;
+}
+
+#question_2 {
+    left: 125vw;
+}
+
+#question_3 {
+    left: 125vw;
+}
+
+#question_4 {
+    left: 125vw;
+}
+
+#question_5 {
+    left: 125vw;
+}
+
+#result {
+    left: 125vw;
+}
+
+#app_result {
+    display: inline-block;
+}
+
+}
+#app_link {
+    display: inline-block;
+    width: 10vw;
+    height: auto;
+}
+#app_img {
+    display: inline-block;
+    width: 10vw;
+    height: auto;
+}
+
+#rentwatch {
+    visibility: hidden;
+}
+
+#learnmore {
+    background-color: #00C4FF;
+    width:10vw;
+}
+
+/* Kelvin's work starts here */
+#intro {
+
+    background-color: #00C4FF;
+    margin-top:15px;
+    
+    width:49.5vw;
+    height:auto;
+}
+
+#summary {
+    background-color:#00C4FF;
+    margin-top:5px;
+/*    top:40%;*/
+    width:49.5vw;
+    height:auto;
+}
+
+#tagline {
+/*    position:absolute;*/
+    width:38vw;
+/*    height:7vh;*/
+    font-size:1.75em;
+    margin:0.5vw;
+    text-align:center;
+    background-color:#6CE892;
+/*    left:51.5%;*/
+}
+
+.home_pic {
+/*    position:absolute;*/
+    width:47.5vw;
+    height:auto;
+    padding-top:15px;
+/*    top:27%;*/
+/*    left:50.5%;*/
+}
+
+.android {
+/*    position:absolute;*/
+    width:23vw;
+    height:auto;
+/*    top:84%;*/
+/*    left:75.5%;*/
+}
+
+.apple {
+/*    position:absolute;*/
+    width:23vw;
+    height:auto;
+/*    top:84%;*/
+/*    left:51%;*/
+}
+
+.big {
+    font-size:1.25em;
+}
+
+#details {
+    position:relative;
+    display: inline-block;
+    vertical-align:top;
+    background-color:#00C4FF;
+    left:0.5%;
+    width:54vw;
+    height:auto;
+    margin-top:8px;
+}
+
+#lefthome {
+/*
+    position:relative;
+    left:0.5vw;
+*/
+    display: inline-block;
+    vertical-align:top;
+    width: 50vw;
+}
+
+#righthome {
+    display: inline-block;
+/*    vertical-align:top;*/
+    width: 47vw;
+}
+#right {
+    display: inline-block;
+    vertical-align:top;
+    width: 40vw;
+}
+.watch {
+    display:inline-block;
+    width:20vw;
+    height:auto;
+/*    margin-top:8px;*/
+/*    border:2px solid #6CE892;*/
+}
+
+.alert {
+/*    position:absolute;*/
+    display:inline-block;
+    width:20vw;
+    height:auto;
+/*    left:73%;*/
+/*    margin-top:8px;*/
+/*    border:2px solid #6CE892;*/
+}
+
+.dictionary {
+/*    position:absolute;*/
+    display:inline-block;
+    width:20vw;
+    height:auto;
+/*    top:60%;*/
+/*    left:60%;*/
+/*    margin-top:22px;*/
+/*    border:2px solid #6CE892;*/
+}
+
+/* .trip {
+    position:absolute;
+    width:30%;
+    height:auto;
+    top:58%;
+    left:45%;
+    margin-top:5px;
+    border:2px solid #6CE892;
+}
+<img class="trip col-lg-4 col-md-4 col-sm-6 col-xs-6" src="trip.jpg">
+*/
+
+/* Download Page */
+table, th, td {
+    border: 2px solid #00C4FF;
+    border-collapse: collapse;
+    padding: 2px;
+}
+#table_check {
+    text-align: center;
+    color: #6CE892;
+}
+
+#table_title {
+    font-size: 2em;
+    color:#00C4FF;
+}
+
+.table_app {
+    width: 10vw;
+}
+
+#rent_title {
+    font-size: 2em;
+    color: #00C4FF;
+}
+
+.rent_msg {
+    text-align: justify;
+}
+/* Reviews Page */
+.prmpt {
+    text-align: right;
+}
+
+.user_input {
+    border: 2px solid #00C4FF;
+    color: #00CAFF;
+}
+
+#user_review {
+    font-size: 1em;
+}
+
+#feedback_msg {
+    font-size: 2em;
+}
+#submit {
+    background-color: #6CE892;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.review {
+    margin:2vw;
+    background-color: #6CE892;
+    width:90vw;
+}
+
+.score {
+    font-size: 2em;
+}
+
+.namedate {
+    font-size: 1.5em;
+}
+
+/* Support page */
+
+#FAQ {
+    margin-top:8px;
+    display:inline-block;
+    vertical-align: top;
+    width: 49vw;
+    height:auto;
+    background-color: #00C4FF;
+}
+#rightsup {
+    display: inline-block;
+    vertical-align:top;
+    width: 48vw;
+}
+#support {
+    display: inline-block;
+    vertical-align: top;
+    background-color:#00C4FF;
+    width:48vw;
+    height:auto;
+    margin-top:8px;
+}
+
+#supmail {
+    color: black;
+}
+#phonebox {
+    margin-top:8px;
+    background-color:#6CE892;
+    width:48vw;
+    height:auto;
+}
+
+#addressbox {
+    margin-top:8px;
+    background-color:#6CE892;
+    width:48vw;
+    height:auto;
+}
+
+#contactright {
+    display: inline-block;
+}
+.phone {
+    display: inline-block;
+    width:20%;
+    height:auto;
+
+}
+
+.building {
+    display: inline-block;
+    width:28%;
+    height:auto;
+}
+
+.contacttext {
+    font-size:1em;
+}
+
+.numbertext {
+    font-size:1.75em;
+}
+
+.addresstext {
+    font-size:1.75em;
+}
+
+#submission {
+    position:absolute;
+    background-color:#6CE892;
+    left:56%;
+    width:43vw;
+    height:79vh;
+    top:17.5%; 
+}
+
+.infoinput {
+    width:500px;
+    height:25px;
+}
+
+#submit {
+    width:200px;
+    height:50px;
+    margin-top:3px;
+}
+
+textarea {
+    width:500px;
+    height:240px;
+}
+
+/* About us page */
+#about {
+    background-color:#00C4FF;
+/*    width:49vw;*/
+    height:auto;
+    margin-top:8px;
+/*    margin-left: 1vw;*/
+}
+
+#brett {
+    background-color:#00C4FF;
+/*    width:49vw;*/
+    height:37vh;
+/*    margin-left: 1vw;*/
+}
+
+#kelvin {
+    background-color:#6CE892;
+/*    width:49vw;*/
+    height:37vh;
+/*    margin-left: 1vw;*/
+}
+
+.founder {
+    position:absolute;
+    border-radius:200px;
+    width:35%;
+    height:auto;
+    left:1%;
+}
+
+.founder2 {
+    border-radius:200px;
+    width:37%;  
+    height:auto;
+}
+
+.name {
+    position:relative;
+    font-size:3em;
+    float:right;
+}
+
+.name2 {
+    position:relative;
+    font-size:2em;
+    float:right;
+}
+
+.bcit {
+/*    width:47%;*/
+    height:auto;
+    margin-top:8px;
+/*    border:2px solid #00C4FF;*/
+}
